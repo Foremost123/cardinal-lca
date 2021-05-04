@@ -1,0 +1,98 @@
+<! DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> CARDINAL LCA</title>
+    <link rel="stylesheet" href="codeincss.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--<script src="javascriptcodes.js"></script>-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(window).scroll(function () {
+        $('.animation-test1').each(function () {
+            var imagePos = $(this).offset().top;
+            var imageHeight = $(this).height();
+            var topOfWindow = $(window).scrollTop();
+
+            if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+                $(this).addClass("slideRight1");
+            } else {
+                $(this).removeClass("slideRight1");
+            }
+        });
+    });
+    $(window).scroll(function () {
+        $('.animation-test2').each(function () {
+            var imagePos = $(this).offset().top;
+            var imageHeight = $(this).height();
+            var topOfWindow = $(window).scrollTop();
+
+            if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+                $(this).addClass("slideRight2");
+            } else {
+                $(this).removeClass("slideRight2");
+            }
+        });
+    });
+    $(window).scroll(function () {
+        $('.animation-test3').each(function () {
+            var imagePos = $(this).offset().top;
+            var imageHeight = $(this).height();
+            var topOfWindow = $(window).scrollTop();
+
+            if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+                $(this).addClass("slideRight3");
+            } else {
+                $(this).removeClass("slideRight3");
+            }
+        });
+    });
+    </script>
+  </head>
+  <body>
+    <div class="mehul">
+      <div id="logo_section" style="flex:1.5;padding:0px">
+        <img src="Cardinal LCA_Logo.jpg" width="200" height:"200">
+      </div>
+      <div style="flex:2;padding-top:30px;padding-bottom:30px;padding-right:120px;text-align:left"><h style="color: rgb(220,34,34);font-size: 50px;">Cardinal LCA</h>
+      <p class="marginreduce" style="top:0px;font-size: 25px;">To Decarbonize our Buildings!</p></div>
+      <div  class="rover" style="flex: 1; align-self: center;"><a href="index.html" style="text-decoration:none;color:black">Home</a></div>
+      <div  class="rover" style="flex: 1.4; align-self: center;"><a href="About_section.htm" style="text-decoration:none;color:black">About Us</a></div>
+      <div  class="rover" style="flex: 1; align-self: center"><a href="Team_section.htm" style="text-decoration:none;color:black">Team</a></div>
+      <div  class="rover" style="flex: 1.3; align-self: center"><a href="WhyCardinalLCA_section.htm" style="text-decoration:none;color:black">Why Us</a></div>
+      <!--<div  class="rover" style="flex: 1; align-self: center"><a href="Pricing_section.htm" style="text-decoration:none;color:black">Pricing</a></div>-->
+      <div  class="rover" style="flex: 1; align-self: center"><a href="ContactUs_section.htm" style="text-decoration:none;color:black">Contact</a></div>
+    </div>
+    <h1 style="padding-top: 50px;padding-left:200px;font-size:30px">Let's <span class="redText">Decarbonize</span> our Buildings by more than 38% !</h1>
+      <div><img src="homepage_building.png" height=700 alt="building"></div>
+<div class="laptopanimation">
+<div class="anim1"><img src="Laptop_1.png" height=500px></div>
+<div class="anim2"><img src="Laptop_2.png" height=500px></div>
+<div class="anim3"><img src="Laptop_3.png" height=500px></div>
+<div class="anim4"><img src="Laptop_4.png" height=500px></div>
+<div class="anim5"><img src="Laptop_5.png" height=500px></div>-->
+</div>
+<div class="homepage_3_images_in_row" style="padding-top:150px">
+  <div class="animation-test1 element-to-hide1" class="homepage_text_and_image" style="flex:1;text-align:center;">
+    <div style="padding-left:50px;font-weight:bold;">Building Industry contributes to <div style="color:rgb(220,34,34);font-weight: bold;font-size:40px;">40%</div> of global C02 Emissions</div>
+    <div><img src="homepage_image_1.png" height="300"></div>
+  </div>
+  <div class="animation-test2 element-to-hide2" class="homepage_text_and_image"  style="flex:1;text-align:center;">
+    <div style="font-weight:bold">Out of this, 60% is through the operational energy, while <div style="color:rgb(220,34,34);font-weight: bold;font-size:40px;">38%</div> is through embodied energy within materials</div>
+    <div><img src="homepage_image_2.png" height="300"></div>
+  </div>
+  <div class="animation-test3 element-to-hide3" class="homepage_text_and_image"  style="flex:1;text-align: center;">
+    <div  style="font-weight:bold">The embodied energy has remained <div style="color:rgb(220,34,34);font-weight: bold;font-size:40px;">stagnant</div> thoughout the years but operational energy<br> has reduced by 50%</div>
+    <div><img src="homepage_image_3.png" height="300"></div>
+  </div>
+</div>
+<div class="youtube_video">
+<iframe  width="1000" height="550" src="https://www.youtube.com/embed/w4REVFwhysg" title="YouTube video player"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<footer>
+<p>Copyright 2021. All Rights Reserved.<hr size=1px width="400px" color="black"></p>
+      <p><b>Cardinal LCA</b></p>
+</footer>
+  </body>

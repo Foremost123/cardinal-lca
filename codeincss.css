@@ -1,0 +1,315 @@
+/*@import url('https://fonts.googleapis.com/css?family=Francois+One');*/
+
+body{
+  /*font-family:"Times New Roman";*/
+  font-family: 'Oswald', sans-serif;
+}
+.redText{
+  color: rgb(220,34,34);
+}
+
+.mehul div{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.rover{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(250,250,250);
+}
+.rover :hover{
+  /*background: white;*/
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: rgb(255,204,203);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 35px;
+}
+
+.mehul{
+  display: flex;
+  flex-direction: row;
+}
+.homepage_2images_in_row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+}
+.homepage_graph{
+  display: flex;
+  justify-content: center;
+  padding-top:50px;
+  padding-bottom: 80px
+}
+.homepage_text_and_image div{
+display: flex;
+flex-direction: column;
+padding:25px;
+}
+.homepage_3_images_in_row{
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+
+}
+.homepage_3_images_in_row div{
+  padding: 10px;
+}
+.about_us_1{
+display: flex;
+flex-direction: row;
+}
+.about_us_direct_impacts_images{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.about_us_direct_impacts_images div{
+  padding:50px;
+}
+.about_us_indirect_impacts_images{
+display: flex;
+flex-direction: row;
+padding-bottom: 70px;
+}
+mark{
+  background-color: DarkSalmon;
+}
+.why_us_rowwise{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  font-weight: bold;
+}
+.why_us_columnwise{
+  display: flex;
+  flex-direction: column;
+  padding:50px;
+  font-size: 25px;
+}
+.why_us_columnwise div{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.flex-container_2{
+  display:flex;
+  align-items:center;
+  background-color: red;
+}
+.inner-column-flex{
+  display:flex;
+  flex-direction: column;
+  padding-left: 100px;
+}
+#text1{
+  text-align: center;
+  background-color: brown;
+}
+#image_on_homepage{
+  display:flex;
+  align-items:center;
+  flex:center;
+  padding-left: 400px;
+}
+
+.textaboutus{
+  text-align: center;
+  font-size: 23px;-
+  color: black;
+  padding: 50px;
+}
+#Team_section{
+font-size: 1.5em;
+}
+figcaption{
+  line-height: 100%;
+}
+#WhyCardinalLCA_section{
+  background-color: white;
+  padding-top: 100px;
+}
+.text_of_pricing{
+  top: 100px;
+  text-align:left;
+  color: black;
+  padding-bottom: 280px;
+}
+.text_of_contact{
+  font-size: 15px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.plugin_contact{
+  font-size: 15px;
+  padding-left: 30px;
+  padding-bottom: 80px;
+}
+#ContactUs_section{
+  background-color: rgb(201,76,76);
+  padding-bottom: 100px;
+}
+div.image-gallery {
+  display: block;
+  background-color: white;
+}
+
+div.image-gallery figure {
+  display: block;
+  float: left;
+  padding-left:50px;
+}
+.clear {
+  clear: both;
+  height: 0;
+  width: 0;
+  font-size: 1px;
+  line-height: 0;
+}
+.r_contact_us{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.r_contact_us div{
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: black;
+}
+.youtube_video{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+.marginreduce{
+
+  line-height: 0em;
+}
+
+.laptopanimation{
+  position: relative;
+  top: -400px;
+  padding-left: 600px;
+}
+.laptopanimation div{
+  position: absolute;
+  padding-top: : 0;
+  padding-left: : 0;
+}
+.why_us_animation1{
+  animation-name:come_in;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+.why_us_animation2{
+  animation-name:come_in;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+}
+
+@keyframes come_in {
+  0%{opacity: 0}
+  100%{opacity: 1}
+}
+
+
+.anim1{
+  animation-name: laptopappear;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.anim2{
+  animation-name: laptopappear;
+  animation-duration: 10s;
+  animation-delay: -8s;
+  animation-iteration-count: infinite;
+}
+.anim3{
+  animation-name: laptopappear;
+  animation-duration: 10s;
+  animation-delay: -6s;
+  animation-iteration-count: infinite;
+}
+.anim4{
+  animation-name: laptopappear;
+  animation-duration: 10s;
+  animation-delay: -4s;
+  animation-iteration-count: infinite;
+}
+.anim5{
+  animation-name: laptopappear;
+  animation-duration: 10s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+}
+@keyframes laptopappear {
+  0% { opacity:1;}
+  20% {opacity:1;}
+  20.1% {opacity: 0;}
+  100% {opacity: 0;}
+}
+.element-to-hide1 {
+  visibility: hidden;
+}
+.element-to-hide2 {
+  visibility: hidden;
+}
+.element-to-hide3 {
+  visibility: hidden;
+}
+
+.slideRight1 {
+  opacity: 0;
+  visibility: visible;
+  animation-name: slideRight1;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes slideRight1 {
+  0%{ opacity: 0}
+  100%{opacity: 1}
+
+}
+.slideRight2 {
+  opacity: 0;
+  visibility: visible;
+  animation-name: slideRight2;
+  animation-delay: 1s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+@keyframes slideRight2 {
+  0%{ opacity: 0}
+  100%{opacity: 1}
+}
+
+.slideRight3 {
+  opacity: 0;
+  visibility: visible;
+  animation-delay: 2s;
+  animation-name: slideRight3;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes slideRight3 {
+  0%{ opacity: 0}
+  100%{opacity: 1}
+}
